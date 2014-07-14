@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+section {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    position: relative;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding:10em 10em 10em 15em;
+}
+
+
+section.intro {
+	height: 100%;
+	background: url('../images/map-snapshot1.png');
+	text-align: right;
+}
+
+section .inner {
+	position: absolute;
+	left: 60em;
+	top: 10em;
+	width: 30em;
+	height: 10em;
+	padding: 20px;
+	background-color: #fff;
+}
