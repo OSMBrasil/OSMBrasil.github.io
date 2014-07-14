@@ -1,0 +1,28 @@
+{
+	"name": "osmbrasil",
+	"description": "OSM Brasil",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/osmbrasil/OSMBrasil.github.io.git"
+	},
+	"version": "0.0.1",
+	"author": "Vitor George <vitor.george@gmail.com>",
+	"scripts": {
+	},
+	"dependencies": {
+		"underscore": "latest",
+		"jquery": "latest",
+		"leaflet": "latest"
+	},
+	"devDependencies": {
+		"grunt": "latest",
+		"grunt-browserify": "latest",
+		"grunt-contrib-uglify": "latest",
+		"grunt-contrib-connect": "latest",
+		"grunt-contrib-watch": "latest"
+	},
+	"keywords": [
+		"openstreetmap",
+		"osmbrasil"
+	]
+}

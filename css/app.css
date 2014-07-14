@@ -21,6 +21,7 @@ html, body {
     background: rgba(255,255,255,0.8);
     position: relative;
     z-index: 2;
+    pointer-events: none;
 }
 
 #site #masthead {
@@ -28,6 +29,10 @@ html, body {
     top: 30%;
     left: 10%;
     width: 20%;
+}
+
+#site #masthead a {
+    pointer-events: auto;
 }
 
 #site #masthead h1 {
@@ -40,6 +45,7 @@ html, body {
     top: 30%;
     right: 10%;
     width: 50%;
+    pointer-events: auto;
 }
 
 /*
