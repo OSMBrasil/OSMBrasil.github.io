@@ -1,6 +1,8 @@
 var L = require('leaflet'),
 	$ = require('jquery'),
-	_ = require('underscore')
+	_ = require('underscore');
+
+require('angular');
 
 var map = L.map('map', { center: [0,0], zoom: 2 });
 

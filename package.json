@@ -5,13 +5,14 @@
 		"type": "git",
 		"url": "git://github.com/osmbrasil/OSMBrasil.github.io.git"
 	},
-	"version": "0.0.1",
+	"version": "0.1",
 	"author": "Vitor George <vitor.george@gmail.com>",
 	"scripts": {
 	},
 	"dependencies": {
 		"underscore": "latest",
 		"jquery": "latest",
+		"angular": "latest",
 		"leaflet": "latest"
 	},
 	"devDependencies": {
