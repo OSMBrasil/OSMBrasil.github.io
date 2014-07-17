@@ -40,7 +40,7 @@ html, body {
     font-size: 42px;
 }
 
-#site #content {
+#site .content {
     position: absolute;
     top: 30%;
     right: 10%;
