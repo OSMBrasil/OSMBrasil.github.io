@@ -4,7 +4,7 @@ var L = require('leaflet'),
 
 require('angular');
 
-var map = L.map('map', { center: [0,0], zoom: 2 });
+var map = L.map('map', { center: [-16.38,-56.60], zoom: 3 });
 
 L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
