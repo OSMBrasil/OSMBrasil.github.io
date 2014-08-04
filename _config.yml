@@ -1,10 +1,10 @@
 # Site settings
 title: OpenStreetMap Brasil
-email: vitor.george@openstreetmap.com.br
+email: 
 description: "Informações sobre como mapear, usar dados e participar da comunidade do OpenStreetMap."
 baseurl: ""
 url: "http://www.openstreetmap.com.br"
-twitter_username: mapaslivres
+twitter_username: 
 github_username:  OSMBrasil
 
 # Build settings
