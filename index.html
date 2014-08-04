@@ -1,118 +1,47 @@
-<!DOCTYPE html>
-<html lang="pt" ng-app='OSMBrasil'>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OpenStreetMap Brasil</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="css/leaflet.css">
-    <link rel="stylesheet" href="css/app.css">
+<section class="hero">
+  <h2>
+    Conheça o OpenStreetMap, o mapa livre do mundo
+  </h2>
+  <p>
+    O OpenStreetMap é um projeto de produção colaborativa de dados geo-espaciais abertos. </br>
+    Qualquer pessoa pode editar o mapa e os dados são redistribuídos sob uma licença aberta. 
+  </p>
+</section>
 
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
- 
-  </head>
-  <body>
-
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Você conhece o mapa livre do mundo?</h1>
-        <p>O OpenStreetMap está criando um mapa aberto do planeta a partir da colaboração das pessoas. Assism como a Wikipedia, qualquer pessoa pode participar, usando e melhorando os dados.
-        </p>
-        <p>
-          <a class="btn btn-primary btn-lg" role="button">Ir ao OpenStreetMap</a>
-          <a class="btn btn-primary btn-lg" role="button">Aprenda a mapear</a>
-          <a class="btn btn-primary btn-lg" role="button">Baixe dados</a>
-          <a class="btn btn-primary btn-lg" role="button">Participe da comunidade</a>
-          <a class="btn btn-primary btn-lg" role="button">Sobre a OSMBr</a>
-        </p>
-      </div>
+<section class="teasers">
+  <div class="grid">
+    <div class="teaser col-1-3">
+      <h3>
+        Por onde começar?
+      </h3>
+      <p>
+        <a href="/aprenda/">
+          Criar uma conta e comece a explorar o universo do OpenStreetMap →
+        </a>
+      </p>
+    </div><div class="teaser col-1-3">
+      <h3>
+        Os dados do OpenStreetMap
+      </h3>
+      <p>
+        <a href="/dados/">
+          Descubra como e onde baixar dados do OpenStreetMap →
+        </a>
+      </p>
+    </div><div class="teaser col-1-3">
+      <h3>
+        Participe da comunidade
+      </h3>
+      <p>
+        <a href="/comunidade/">
+          Conheça os canais de conversa da comunidade brasileira →
+        </a>
+      </p>
     </div>
 
-    <div class="container">
-      <section>
-        <h2>Aprenda a mapear</h2>
-        <p>A melhor maneira de começar a mapear é acessar o site do OpenStreetMap, criar uma conta e clicar em 'Editar' em uma área do mapa. Além do site, outras ferramentas podem ser usadas, como o editor avançado JOSM, ou até mesmo aplicações mobile como o OsmAnd, Vespucci e outros.</p>
-        <p>
-          Visite o wiki para conhecer mais.
-        </p>
-      </section>
-      <section>
-        <h2>Baixe dados</h2>        
-        <p>
-          Um arquivo atualizado com todos os dados do OpenStreetMap, o chamado planet, é distribuído via ftp e torrent. Para os dados do Brasil, é possível baixar um arquivo extraído do planet ou um conjunto de shapefiles com os principais elementos do mapa. Também é possível fazer buscas de pequenas parcelas com o Overpass.
-        </p>
-      </section>
-      <section>
-        <h2>Participe da Comunidade</h2>        
-        <p>
-          A riqueza dos dados do OpenStreetMap surge da comunidades locais, por isso é importante conhecer quer está mapeando perto de você. A lista de email talk-br é o principal canal de conversa da comunidade brasileira. Há outros meios onde também é possível comunicar-se com outros usuários brasileiros, como o fórum e o wiki. 
-        </p>
-      </section>
-      <section>
-        <h2>Navegue no mapa</h2>
-        <div id="map"></div>
-      </section>
-      <section>
-        <h2>Sobre</h2>        
-        <p>A OpenStreetMap Brasil é associação de mapeadores do OpenStreetMap no país. Estamos em um processo de construção para representar os mapeadores do país em atividades importantes e necessárias para melhorar o mapa, como a divulgação de informações, orientação de usuários novos, pedidos de aberturas de dados frente ao governo e outras organizações.</p>
-      </section>
-    </div>
-
-<!--     <div id="map"></div>
-    <section id="site">
-      <header id="masthead">
-        <h1>OpenStreetMap Brasil</h1>
-        <button>Aprenda a mapear</button>
-        <button>Baixe os dados</button>
-        <button>Participe da comunidade</button>
-        <button>Navegue no mapa</button>
-      </header>
-      <section class="content" id="aprenda">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in dui lobortis enim sodales interdum sit amet id velit. Pellentesque tempus vehicula felis nec lacinia. Donec sit amet lectus sed diam ornare blandit quis quis ante. Donec in cursus nulla. Maecenas venenatis vestibulum eros eu molestie. Fusce sit amet lobortis arcu. Proin eros dui, mollis sed placerat sollicitudin, hendrerit nec magna. Mauris nec ornare ligula, eget consequat lectus. Aliquam egestas sem nibh, ut mattis lorem viverra quis. Integer at lacinia felis.
-        </p>
-        <p>
-          Nulla congue sapien in adipiscing ultricies. Nunc non tortor magna. Phasellus vehicula tortor vitae bibendum faucibus. Duis dictum est enim, in tempor sapien consequat vel. Cras dui est, hendrerit vel nulla at, posuere imperdiet mi. Sed convallis lacus quis diam ultricies, et elementum diam elementum. Pellentesque vitae sapien ante. Nulla aliquam, neque a interdum sagittis, risus sem feugiat sem, pretium accumsan ligula lacus quis massa.
-        </p>
-      </section>
-      <section class="content" id="baixe">
-        Lipsum dolor sit.
-      </section>
-      <section class="content" id="participe">
-        Lipsum dolor sit.
-      </section>
-      <section class="content" id="navegue">
-        Lipsum dolor sit.
-      </section>
-      <section class="content" id="melhore">
-        Lipsum dolor sit.
-      </section>
-
-
-    </section> -->
-
-<!--     <section class="intro">
-      <div class="inner">
-        <h1>OpenStreetMap Brasil</h1>
-        <p>
-          Milhares de pessoas estão colocando o Brasil no mapa livre do mundo, participe também!
-        </p>
-        <a href="#baixe">Baixe dados</a>
-        <a href="#aprenda">Aprenda a mapear</a>
-        <a href="#participe">Participe</a>
-      </div>
-    </section>
- -->
-
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript" src="/js/app.js"></script>
-  </body>
-</html>
+  </div>
+</section>
