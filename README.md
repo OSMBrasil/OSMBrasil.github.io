@@ -1,13 +1,7 @@
 # Site da OpenStreetMap Brasil
 
-Este é o repositório do site da OpenStreetMap Brasil, uma associação de mapeadores brasilerios.
+Este é o repositório do site da OpenStreetMap Brasil, uma associação de mapeadores brasileiros.
 
-## Estrutura
+## Como ajudar?
 
-Como ainda temos pouco conteúdo, o site vai ser de uma página só, dividido em seções que aparecem na rolagem:
-
-* Introdução
-* Aprenda a mapear
-* Baixe os dados
-* Participe da comunidade
-* Contato
+O site é feito em Jekyll. Para rodar localmente, clone o repositório e rode `jekyll serve --watch`.
