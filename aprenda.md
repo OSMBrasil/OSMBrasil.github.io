@@ -14,7 +14,7 @@ Clique no link que será enviado ao seu e-mail para habilitar sua conta.
 
 ## Faça sua primeira edição com o iD
 
-Na página inicial do OpenStreetMap, faça uma busca de sua localiadde:
+Na página inicial do OpenStreetMap, faça uma busca de sua localidade:
 
 <img src="{{ "/images/aprenda/busque-sua-localidade.png" | prepend: site.baseurl }}">
 
@@ -22,7 +22,7 @@ E clique nela:
 
 <img src="{{ "/images/aprenda/escolha-sua-localidade.png" | prepend: site.baseurl }}">
 
-Abra a localidade no editor clicando no botão "Explorar":
+Abra a localidade no editor clicando no botão "Editar":
 
 <img src="{{ "/images/aprenda/abra-o-editor.png" | prepend: site.baseurl }}">
 
@@ -37,7 +37,7 @@ Agora que você tem uma conta e já pode fazer edições:
 * Entre na lista de discussão talk-br, um dos principais canais da comunidade brasileira;
 * Conheça a seção em português do fórum do OpenStreetMap;
 * Visite o wiki e aprenda coisas interessantes como:
-	* O uso de tags;
+	* O uso de etiquetas (*tags*);
 	* O editor avançado JOSM;
 	* Ferramentas de manipulação de dados OSM, como o Osmosis.
 
