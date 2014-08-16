@@ -6,7 +6,7 @@ permalink: /aprenda/
 
 ## Crie uma conta
 
-Acesse o site do OpenStreetMap e clique em "Criar conta", ou vá direto por este <a href="https://www.openstreetmap.org/user/new">link</a>:
+Acesse o site do OpenStreetMap e clique em "Criar conta", ou vá direto por este <a href="https://www.openstreetmap.org/user/new?locale=pt-BR">link</a>:
 
 <img src="{{ "/images/aprenda/criar-conta.png" | prepend: site.baseurl }}">
 
