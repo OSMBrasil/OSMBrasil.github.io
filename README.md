@@ -1,4 +1,5 @@
 # Site da OpenStreetMap Brasil
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/OSMBrasil/OSMBrasil.github.io?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Este é o repositório do site da OpenStreetMap Brasil, uma associação de mapeadores brasileiros.
 
