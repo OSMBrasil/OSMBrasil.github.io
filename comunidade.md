@@ -16,7 +16,7 @@ O Fórum pode ser acessado em [forum.openstreetmap.org](http://forum.openstreetm
 
 ## Chat
 
-No chat desta comunidade, você pode tirar dúvidas com outros colaboradores ou simplesmente bater um papo sobre o OpenStretMap. O chat pode ser acessado pelo link [https://scrollback.io/osm-brasil](https://scrollback.io/osm-brasil). Este mesmo chat também pode ser acessado via IRC no canal [#osm-br@irc.oftc.net](irc://irc.oftc.net/osm-br).
+No chat desta comunidade, você pode tirar dúvidas com outros colaboradores ou simplesmente bater um papo sobre o OpenStretMap. O chat pode ser acessado pelo link [https://scrollback.io/osm-brasil](https://scrollback.io/osm-brasil/all/all-messages). Este mesmo chat também pode ser acessado via IRC no canal [#osm-br@irc.oftc.net](irc://irc.oftc.net/osm-br).
 
 ## Wiki
 
