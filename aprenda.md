@@ -40,8 +40,3 @@ Agora que você tem uma conta e já pode fazer edições:
 	* O uso de etiquetas (*tags*);
 	* O editor avançado JOSM;
 	* Ferramentas de manipulação de dados OSM, como o Osmosis.
-
-Veja mais neste site:
-
-* Download de dados do OpenStreetMap em diversos formatos;
-* Projetos e outras comunidades em torno do OpenStreetMap.
