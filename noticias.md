@@ -8,9 +8,6 @@ permalink: /noticias/
 
 Comunicações específicas da comunidade brasileira.
 
-- Primeiro post
-- Secundo post
-
 <ul>
     {% for post in site.categories.brasil limit:16 %}
       <li>
@@ -26,23 +23,9 @@ Comunicações específicas da comunidade brasileira.
 
 ## WeeklyOSM
 
-Traduções do semanário [weeklyosm.eu](http://weeklyosm.eu), gerado do [Wochennotiz](http://blog.openstreetmap.de/) alemão.
+Traduções do semanário [weeklyosm.eu](http://weeklyosm.eu), que é gerado do [Wochennotiz](http://blog.openstreetmap.de/) alemão.
 
-- Primeiro post
-- Secundo post
-
-<ul>
-    {% for post in site.categories.weeklyosm limit:16 %}
-      <li>
-        {{ post.date | date_to_string }} ‒ <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title | xml_escape }}</a>
-        <small>
-            {% for tag in post.tags %}
-            <span>{{ tag | xml_escape }}</span>
-            {% endfor %}
-        </small>
-      </li>
-    {% endfor %}
-</ul>
+{% include weeklyosm.md %}
 
 ## OSMF
 
