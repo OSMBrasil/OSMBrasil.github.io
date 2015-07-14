@@ -29,7 +29,7 @@ Traduções do semanário [weeklyosm.eu](http://weeklyosm.eu), que é gerado do 
 
 ## OSMF
 
-Traduções de comunidados oficiais da Fundação OpenStreetMap.
+Traduções de comunicados oficiais da Fundação OpenStreetMap.
 
 <ul>
     {% for post in site.categories.osmf limit:16 %}
