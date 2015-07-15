@@ -21,7 +21,7 @@ Comunicações específicas da comunidade brasileira.
     {% endfor %}
 </ul>
 
-## WeeklyOSM
+## WeeklyOSM [![Ícone RSS para o WeeklyOSM][rssicon]][weeklyosm.xml]
 
 Traduções do semanário [weeklyosm.eu](http://weeklyosm.eu), que é gerado do [Wochennotiz](http://blog.openstreetmap.de/) alemão.
 
@@ -43,3 +43,7 @@ Traduções de comunicados oficiais da Fundação OpenStreetMap.
       </li>
     {% endfor %}
 </ul>
+
+
+[rssicon]: {{site.baseurl}}/images/noticias/Rss_font_awesome.svg
+[weeklyosm.xml]: {{site.baseurl}}/weeklyosm.xml

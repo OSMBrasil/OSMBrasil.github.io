@@ -277,6 +277,11 @@ a:visited { color: #205caa; }
   letter-spacing: -1px;
 }
 
+.post-content h2 img {
+  width: 0.7em;
+  margin-left: 0.2em;
+}
+
 .post-content blockquote {
   border-left: 4px solid #e8e8e8;
   padding-left: 20px;
