@@ -4,7 +4,7 @@ title: Notícias
 permalink: /noticias/
 ---
 
-## Brasil
+## Brasil [![Ícone do RSS para o Brasil][rssicon]][feed.xml]
 
 Comunicações específicas da comunidade brasileira.
 
@@ -21,7 +21,7 @@ Comunicações específicas da comunidade brasileira.
     {% endfor %}
 </ul>
 
-## WeeklyOSM [![Ícone RSS para o WeeklyOSM][rssicon]][weeklyosm.xml]
+## WeeklyOSM [![Ícone do RSS para o WeeklyOSM][rssicon]][weeklyosm.xml]
 
 Traduções do semanário [weeklyosm.eu](http://weeklyosm.eu), que é gerado do [Wochennotiz](http://blog.openstreetmap.de/) alemão.
 
@@ -47,3 +47,4 @@ Traduções de comunicados oficiais da Fundação OpenStreetMap.
 
 [rssicon]: {{site.baseurl}}/images/noticias/Rss_font_awesome.svg
 [weeklyosm.xml]: {{site.baseurl}}/weeklyosm.xml
+[feed.xml]: {{site.baseurl}}/feed.xml
