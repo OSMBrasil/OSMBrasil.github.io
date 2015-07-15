@@ -302,6 +302,11 @@ a:visited { color: #205caa; }
   overflow:scroll;
 }
 
+.post strong {
+  font-weight: 600;
+  color: #383838;
+}
+
 .post code { padding: 1px 5px; }
 
 .post ul,

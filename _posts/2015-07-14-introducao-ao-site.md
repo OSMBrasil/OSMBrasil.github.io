@@ -1,24 +1,21 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-08-01 02:54:19
-categories: jekyll update
+title:  "Introdução ao site"
+date:   2015-07-14 23:05:20
+categories: brasil
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+Este é o site da associação de mapeadores **OpenStreetMap Brasil**. Ele é desenvolvido colaborativamente mediante a utilização de um projeto [Jekyll] que é hospedado como site estático no [GitHub Pages]. A codificação de suas páginas é feita principalmente com as linguagens de marcação [Kramdown], [Liquid] e HTML.
 
-Jekyll also offers powerful support for code snippets:
+Conheça, relate ou discuta as principais necessidades para este site participando das _[issues]_ no GitHub.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Atualmente nós estamos precisando de programadores web para "dar um _up_" no visual deste espaço. Só após algumas melhorias básicas — um pouco de cores e imagens! — vamos disponibilizar um blog comunitário. Evidentemente todo contéudo deverá ser previamente avaliado em seu respectivo _[pull request]_.
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll]:    http://jekyllrb.com
+[Jekyll]: http://jekyllrb.com
+[GitHub Pages]: https://pages.github.com/
+[Kramdown]: http://kramdown.gettalong.org/syntax.html
+[Liquid]: http://liquidmarkup.org/
+
+[issues]: http://www.github.com/OSMBrasil/OSMBrasil.github.io/issues
+[pull request]: http://blog.da2k.com.br/2015/02/04/git-e-github-do-clone-ao-pull-request/
