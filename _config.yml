@@ -10,3 +10,7 @@ github_username:  OSMBrasil
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugin settings
+gems:
+  - jekyll-sitemap
