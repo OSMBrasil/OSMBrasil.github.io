@@ -120,27 +120,30 @@ a:visited { color: #205caa; }
 .site-footer .column { float: left; margin-bottom: 15px; }
 
 .footer-col-1 {
-  width: 270px; /*fallback*/
-  width: -webkit-calc(35% - 10px);
-  width: -moz-calc(35% - 10px);
-  width: -o-calc(35% - 10px);
-  width: calc(35% - 10px);
-  margin-right: 10px
+  width: 302px; /*fallback*/
+  width: -webkit-calc(38% - 10px);
+  width: -moz-calc(38% - 10px);
+  width: -o-calc(38% - 10px);
+  width: calc(38% - 10px);
+  margin-right: 10px;
+  text-align: center;
 }
 .footer-col-2 {
   width: 175px; /*fallback*/
-  width: -webkit-calc(23.125% - 10px);
-  width: -moz-calc(23.125% - 10px);
-  width: -o-calc(23.125% - 10px);
-  width: calc(23.125% - 10px);
-  margin-right: 10px
+  width: -webkit-calc(24% - 10px);
+  width: -moz-calc(24% - 10px);
+  width: -o-calc(24% - 10px);
+  width: calc(24% - 10px);
+  margin-right: 10px;
+  text-align: center;
 }
 .footer-col-3 {
-  width: 335px; /*fallback*/
-  width: -webkit-calc(41.875%);
-  width: -moz-calc(41.875%);
-  width: -o-calc(41.875%);
-  width: calc(41.875%);
+  width: 302px; /*fallback*/
+  width: -webkit-calc(38%);
+  width: -moz-calc(38%);
+  width: -o-calc(38%);
+  width: calc(38%);
+  text-align: center;
 }
 
 .site-footer ul { list-style: none; }
@@ -196,7 +199,7 @@ a:visited { color: #205caa; }
 /* ----------------------------------------------------------*/
 
 .hero {
-  height: 200px;
+  min-height: 200px;
   text-align: center;
   margin-top: 50px;
 }
