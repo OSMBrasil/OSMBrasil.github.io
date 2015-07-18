@@ -4,9 +4,9 @@ Este é o repositório do site da OpenStreetMap Brasil, uma associação de mape
 
 ## Como ajudar?
 
-O site é feito em Jekyll. Para rodar localmente, clone o repositório e rode `jekyll serve --watch`.
+O site é feito em Jekyll. Para testá-lo localmente, clone o repositório, rode o comando `jekyll serve --watch`, e então acesse [localhost:4000](http://localhost:4000).
 
-Se você precisa instalar o Jekyll, siga a instrução específica de seu sistema operacional (abaixo).
+Caso precise instalar o Jekyll, siga as instruções para o seu sistema operacional (abaixo).
 
 ### Jekyll em Arch Linux
 
@@ -28,13 +28,6 @@ $ alias jekyll='~/.gem/ruby/2.2.0/bin/jekyll'
 $ source ~/.bashrc
 ```
 
-4) Executar
-```sh
-$ jekyll serve --watch
-```
-
-5) Então acessar [localhost:4000](http://localhost:4000)
-
 ### Jekyll em Ubuntu
 
 1) Instalar
@@ -43,10 +36,3 @@ $ sudo apt-get install ruby ruby-dev make gcc nodejs
 $ sudo gem install jekyll --no-rdoc --no-ri
 $ sudo gem install github-pages --no-rdoc --no-ri
 ```
-
-2) Executar
-```sh
-$ jekyll serve --watch
-```
-
-3) Então acessar [localhost:4000](http://localhost:4000)
