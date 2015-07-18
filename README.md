@@ -34,3 +34,19 @@ $ jekyll serve --watch
 ```
 
 5) Então acessar [localhost:4000](http://localhost:4000)
+
+### Jekyll em Ubuntu
+
+1) Instalar
+```sh
+$ sudo apt-get install ruby ruby-dev make gcc nodejs
+$ sudo gem install jekyll --no-rdoc --no-ri
+$ sudo gem install github-pages --no-rdoc --no-ri
+```
+
+2) Executar
+```sh
+$ jekyll serve --watch
+```
+
+3) Então acessar [localhost:4000](http://localhost:4000)
