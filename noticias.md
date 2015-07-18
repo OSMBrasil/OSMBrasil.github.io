@@ -11,7 +11,7 @@ Comunicações específicas da comunidade brasileira.
 <ul>
     {% for post in site.categories.brasil limit:16 %}
       <li>
-        {{ post.date | date_to_string }} ‒ <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title | xml_escape }}</a>
+        {{ post.date | date_to_string }} ‒ <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title | xml_escape }}</a>
         <small>
             {% for tag in post.tags %}
             <span>{{ tag | xml_escape }}</span>
