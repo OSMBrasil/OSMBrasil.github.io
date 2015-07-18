@@ -43,6 +43,7 @@ a:visited { color: #205caa; }
 .container,
 .grid {
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 .container {
   padding-left: 30px;
@@ -424,6 +425,22 @@ a:visited { color: #205caa; }
     width: auto;
     float: none;
     clear: both;
+    text-align: center;
+  }
+
+  .hero {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .hero h2 {
+    line-height: 1.2em;
+    margin-bottom: 20px;
+  }
+
+  .grid {
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 
 }
