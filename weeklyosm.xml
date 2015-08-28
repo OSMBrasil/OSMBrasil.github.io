@@ -4,30 +4,36 @@
     <link>http://www.openstreetmap.com.br/weeklyosm.xml</link>
     <description>Um resumo semanal de todas as coisas que acontecem no mundo do OpenStreetMap</description>
     <atom:link rel="self" type="application/rss+xml" href="http://www.openstreetmap.com.br/weeklyosm.xml"/>
-    <lastBuildDate>Tue, 14 Jul 2015 01:35:29 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2015 04:01:06 GMT</lastBuildDate>
     <generator>PyRSS2Gen-1.1.0</generator>
     <image>
       <url>http://www.weeklyosm.eu/wp-content/uploads/2015/03/logo_523_521_red-54f49163v1_site_icon-32x32.png</url>
       <title>weekly - semanario - hebdo - s&#259;pt&#259;m&#226;nal - haftal&#305;k - &#36913;&#21002; - t&#253;den&#237;k - edisi</title>
-      <link>http://www.weeklyosm.eu/pt</link>
+      <link>http://www.weeklyosm.eu/pb</link>
       <width>32</width>
       <height>32</height>
     </image>
     <item>
+      <title>seman&#225;rio 259-260-261-262 &#8210; Julho</title>
+      <link>http://www.weeklyosm.eu/pb/archives/4639</link>
+      <guid>http://www.weeklyosm.eu/?p=4639</guid>
+      <pubDate>Thu, 13 Aug 2015 10:29:01 +0000</pubDate>
+    </item>
+    <item>
       <title>seman&#225;rio 258 &#8210; 23/06 a 29/06/2015</title>
-      <link>http://www.weeklyosm.eu/pt/archives/4391</link>
+      <link>http://www.weeklyosm.eu/pb/archives/4391</link>
       <guid>http://www.weeklyosm.eu/?p=4391</guid>
       <pubDate>Sat, 04 Jul 2015 14:36:58 +0000</pubDate>
     </item>
     <item>
       <title>seman&#225;rio 257 &#8211; 16/06 a 22/06/2015</title>
-      <link>http://www.weeklyosm.eu/pt/archives/4335</link>
+      <link>http://www.weeklyosm.eu/pb/archives/4335</link>
       <guid>http://www.weeklyosm.eu/?p=4335</guid>
       <pubDate>Tue, 30 Jun 2015 00:13:23 +0000</pubDate>
     </item>
     <item>
       <title>seman&#225;rio 256 &#8211; 09/06 a 15/06/2015</title>
-      <link>http://www.weeklyosm.eu/pt/archives/4205</link>
+      <link>http://www.weeklyosm.eu/pb/archives/4205</link>
       <guid>http://www.weeklyosm.eu/?p=4205</guid>
       <pubDate>Mon, 22 Jun 2015 09:48:35 +0000</pubDate>
     </item>
