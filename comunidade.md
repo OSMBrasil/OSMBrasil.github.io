@@ -17,8 +17,9 @@ O Fórum pode ser acessado em [forum.openstreetmap.org](http://forum.openstreetm
 ## Telegram
 
 Temos dois grupos no Telegram:
-* [OSM Brasil Suporte](https://telegram.me/OSMBrasil_Suporte), onde você pode tirar dúvidas sobre como mapear e utilizar os dados do OpenStreetMap;
-* [OSM Brasil Comunidade](https://telegram.me/OSMBrasil_Comunidade), onde acontecem as discussões sobre a organização da comunidade brasileira.
+
+- [OSM Brasil Suporte](https://telegram.me/OSMBrasil_Suporte), onde você pode tirar dúvidas sobre como mapear e utilizar os dados do OpenStreetMap;
+- [OSM Brasil Comunidade](https://telegram.me/OSMBrasil_Comunidade), onde acontecem as discussões sobre a organização da comunidade brasileira.
 
 ## Chat
 
