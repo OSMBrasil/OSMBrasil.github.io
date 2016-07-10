@@ -14,6 +14,12 @@ Para se inscrever, acesse [a página da lista](https://lists.openstreetmap.org/l
 
 O Fórum pode ser acessado em [forum.openstreetmap.org](http://forum.openstreetmap.org). Se você já se cadastrou no site do OpenStreetMap, basta utilizar o nome de usuário e senha para fazer o login no Fórum. Temos uma seção do fórum destinada às [discussões da comunidade brasileira](http://forum.openstreetmap.org/viewforum.php?id=74).
 
+## Telegram
+
+Temos dois grupos no Telegram:
+* [OSM Brasil Suporte](https://telegram.me/OSMBrasil_Suporte), onde você pode tirar dúvidas sobre como mapear e utilizar os dados do OpenStreetMap;
+* [OSM Brasil Comunidade](https://telegram.me/OSMBrasil_Comunidade), onde acontecem as discussões sobre a organização da comunidade brasileira.
+
 ## Chat
 
 No chat desta comunidade, você pode tirar dúvidas com outros colaboradores ou simplesmente bater um papo sobre o OpenStretMap. O chat pode ser acessado pelo link [https://scrollback.io/osm-brasil](https://scrollback.io/osm-brasil/all/all-messages). Este mesmo chat também pode ser acessado via IRC no canal [#osm-br@irc.oftc.net](irc://irc.oftc.net/osm-br).
