@@ -147,6 +147,10 @@ a:visited { color: #205caa; }
   text-align: left;
 }
 
+.footer-col-3 p.text {
+  padding-left: 3.5em;
+}
+
 .site-footer ul { list-style: none; }
 
 .site-footer li,
@@ -434,6 +438,10 @@ div.page-content.background-map, header.background-map {
     float: none;
     clear: both;
     text-align: center;
+  }
+
+  .site-footer .footer-col-3 p.text {
+    padding-right: 3.5em;
   }
 
   .hero {
